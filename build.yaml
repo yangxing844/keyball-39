@@ -1,0 +1,8 @@
+---
+include:
+  - board: keyball_left
+    shield: nice_view
+    snippet: studio-rpc-usb-uart
+  - board: keyball_right
+    shield: nice_view
+

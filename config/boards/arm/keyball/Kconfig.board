@@ -1,0 +1,14 @@
+# mikoto board configuration
+
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config BOARD_KEYBALL_LEFT
+    bool "KeyBall keyboard left"
+    depends on SOC_NRF52840_QIAA
+
+
+
+config BOARD_KEYBALL_RIGHT
+    bool "KeyBall keyboard right"
+    depends on SOC_NRF52840_QIAA
